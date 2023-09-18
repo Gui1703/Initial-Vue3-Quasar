@@ -1,0 +1,85 @@
+// app global css in SCSS form
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-login {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: $primary;
+}
+
+.drawer__item {
+  color: #fff;
+  .item__text {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+.drawer__item--active {
+  background: $primary;
+  border-right: 5px solid #fff;
+}
+
+.drawer__list {
+  scrollbar-width: 0;
+
+  .list__title {
+    color: #aaa;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+}
+
+.table-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .button {
+    text-align: right;
+  }
+}
+
+.container-form {
+  z-index: 0;
+}
+
+.b-button__edit {
+  border: 0.5px solid $primary;
+  margin-right: 5px;
+}
+.b-button__delete {
+  border: 0.5px solid $negative;
+}
+.swal2-container {
+  z-index: 9999 !important;
+}
+.fullscreen {
+  z-index: 1250 !important;
+}
+
+.q-header,
+.q-footer {
+  z-index: 1200 !important;
+}
+
+.q-dialog {
+  z-index: 2000 !important;
+}
+
+.language-button {
+  cursor: pointer;
+
+  &:first-child {
+    margin-right: 8px;
+  }
+}

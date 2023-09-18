@@ -1,0 +1,46 @@
+.b-table__row {
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.b-table__row:first-child {
+  border-top: 1px solid;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.b-table__item {
+  margin-bottom: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  .b-table__label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .b-table__data {
+    font-weight: 400;
+  }
+}
+.b-table__id span {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.b-button__actions {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  top: 5px;
+}
+.b-button__edit {
+  border: 0.5px solid $primary;
+  margin-right: 5px;
+}
+.b-button__delete {
+  border: 0.5px solid $negative;
+}
+.b-button__buy {
+  border: 0.5px solid $positive;
+}
+.btn-approved {
+  border: 0.5px solid $positive;
+  margin-right: 5px;
+}
